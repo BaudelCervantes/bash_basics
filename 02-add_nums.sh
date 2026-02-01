@@ -34,12 +34,14 @@ echo ""
 pixelTotal=$(( $width * $height ))
 echo "Your display has ${pixelTotal} pixels." 
 
-# added by BaudelCervantes: calculate triple of the sum
+# added by BaudelCervantes: calculate double and triple of the sum
 echo ""
 
-echo "What is the number that you want to triple?"
+echo "Enter a number?"
 read num
 
 tripleSum=$(( num * 3 ))
 echo "Triple of the number is $tripleSum"
 
+doubleSum=$(( num * 2 ))
+echo "double of the number is $doubleSum"
