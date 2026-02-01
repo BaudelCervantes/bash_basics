@@ -33,3 +33,13 @@ read height
 echo ""
 pixelTotal=$(( $width * $height ))
 echo "Your display has ${pixelTotal} pixels." 
+
+# added by BaudelCervantes: calculate triple of the sum
+echo ""
+
+echo "What is the number that you want to triple?"
+read num
+
+tripleSum=$(( num * 3 ))
+echo "Triple of the number is $tripleSum"
+
