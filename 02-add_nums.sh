@@ -33,3 +33,10 @@ read height
 echo ""
 pixelTotal=$(( $width * $height ))
 echo "Your display has ${pixelTotal} pixels." 
+
+#baudel v2
+echo "What is the number that you want to double?"
+read num
+
+doubleSum=$(( num * 2 ))
+echo "double of the number is $doubleSum"
